@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <title>Netflix</title>
+    <link rel="icon" type="image/x-icon" href="/images/netflix_favicon.ico">
+</head>
+<body>
+    <div class="container">
+    <header class="config-logo">
+        <div class="logo"> 
+            <img src="/images/Logonetflix.png">
+        </div>
+    </header>
+    <div class="form-container">
+        <header class="config-entrar">
+            <h1> Entrar </h1>
+        </header>
+        <div class="form-body">
+        <form action="/action_page.php" method="post" enctype="application/x-www-form-urlencoded">
+            <div class="input-box"><input type="email"  autocomplete="on" placeholder="Email ou número de celular"> </div>
+            <div class="input-box"><input type="password"  placeholder="Senha" required></div>
+            <button type="submit" class="btt-entrar">Entrar</button>
+            <p class="ou"> OU </p>
+            <button type="button" class="btt-cod">Usar um código de acesso</button><br>
+            <a href="#" class="forget-senha">Esqueceu a senha?</a>
+        </form>
+        <footer>
+            <input type="checkbox" id="lembrar" checked></input>
+            <label for="lembrar">Lembre-se de mim</label>
+            <p class="assinatura">Novo por aqui?<b></b><a href="#"> Assine agora</a></b>.</p>
+            <div class="recaptcha"> 
+                <p>Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô.<a href="#">Saiba mais</a></p>
+            </div>
+        </footer>  
+    </div>
+    </div>
+    </div>
+</body>
+</html>
